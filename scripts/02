@@ -1,0 +1,20 @@
+#!/bin/bash
+cw=$(date +"%W")
+var1=1
+
+while [ $var1 -gt 0 ]
+do
+w=$(date +"%W")
+b=$(date +"%H")
+if [[ "$w" -eq "$cw" && "$b" -eq 04 ]]; then
+echo "Start log"
+sudo echo "Start update log" >> /var/log/update_script.log
+sudo echo  >> /var/log/update_script.log
+sudo apt-get update  &>> /var/log/update_script.log
+sudo echo "Start upgrade log" >> /var/log/update_script.log
+sudo echo  >> /var/log/update_script.log
+sudo sudo apt-get upgrade >> /var/log/update_script.log
+cw=$(($cw + 1)) 
+fi
+
+done

@@ -1,0 +1,8 @@
+traceroute ukr.net
+traceroute: Warning: ukr.net has multiple addresses; using 212.42.76.253
+traceroute to ukr.net (212.42.76.253), 64 hops max, 52 byte packets
+1  10.111.254.254 (10.111.254.254)  0.508 ms  0.211 ms  0.222 ms
+2  178.214.196.33 (178.214.196.33)  0.478 ms  0.447 ms  0.420 ms
+3  ukrnet3-gw.ix.net.ua (185.1.51.3)  44.999 ms  51.543 ms  47.272 ms
+
+as we can see our local devise is 10.111.254.254. and out outside world devise is 178.214.196.33

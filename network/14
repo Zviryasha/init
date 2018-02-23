@@ -1,0 +1,11 @@
+ping 10.51.1.81
+PING 10.51.1.81 (10.51.1.81): 56 data bytes
+Request timeout for icmp_seq 0
+Request timeout for icmp_seq 1
+Request timeout for icmp_seq 2
+Request timeout for icmp_seq 3
+^C
+--- 10.51.1.81 ping statistics ---
+5 packets transmitted, 0 packets received, 100.0% packet loss
+
+I can`t find server cuz is unreachble.

@@ -1,0 +1,1 @@
+sudo iptables -A INPUT -i enp2s0 -s m 10.0.0.0/8 -j ACCEPT & sudo iptables -P INPUT DROP

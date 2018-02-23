@@ -1,0 +1,17 @@
+You must change a /etc/hosts file
+
+10.51.1.190 cdn.unit.ua cdn.intra.42.fr
+10.51.1.168 munki.unit.ua
+10.51.1.189 intracdn.unit.ua
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
+
+To
+
+46.19.122.85 cdn.unit.ua cdn.intra.42.fr
+10.51.1.168 munki.unit.ua
+10.51.1.189 intracdn.unit.ua
+127.0.0.1 localhost
+255.255.255.255 broadcasthost
+::1 localhost
